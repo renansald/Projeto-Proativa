@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8CCEFA71-767F-49F4-910F-B2A140858F83}</ProjectGuid>
+    <ProjectGuid>{809F7E27-A47A-EB31-E1FA-D17A62831B6A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,10 +57,10 @@
      <Compile Include="Assets\Scripts\torque.cs" />
      <Compile Include="Assets\Scripts\torque_parafuso_vertical.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Renan Saldanha/Documents/Projetos Unity/loco/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Renan Saldanha/Documents/Projetos Unity/Projeto-Proativa/Torque/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Renan Saldanha/Documents/Projetos Unity/loco/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Renan Saldanha/Documents/Projetos Unity/Projeto-Proativa/Torque/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

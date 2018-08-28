@@ -208,6 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1824441273}
   - component: {fileID: 1824441272}
+  - component: {fileID: 1824441274}
   m_Layer: 0
   m_Name: jogador
   m_TagString: Untagged
@@ -221,7 +222,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1824441271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 884a3df2773e18c4a9112df8e56e51d1, type: 3}
   m_Name: 
@@ -239,13 +240,30 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1824441271}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.16, y: -3.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.76, y: -0.03, z: -0}
+  m_LocalScale: {x: 0.9027541, y: 0.9095726, z: 0.906898}
   m_Children:
   - {fileID: 2090948019}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1824441274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1824441271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afde1a2ae60e6654987e2fe2ed035708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distancia: 0
+  forca: 0
+  distancia2: 
+  forca2: 
+  cima: 0
+  giro: 0
 --- !u!1 &2090948018
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,13 +286,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2090948018}
-  m_LocalRotation: {x: 0.5385906, y: 0.13302962, z: 0.30663154, w: 0.77343416}
-  m_LocalPosition: {x: 1.9969997, y: 1.1479999, z: 0}
-  m_LocalScale: {x: 1.9667953, y: 1.4780858, z: 1}
+  m_LocalRotation: {x: -0.13827015, y: -0.011794574, z: -0.0006123452, w: 0.99032414}
+  m_LocalPosition: {x: 1.6464322, y: -0.49783674, z: 1.3900001}
+  m_LocalScale: {x: 1.5176039, y: 1.135187, z: 0.76602405}
   m_Children: []
   m_Father: {fileID: 1824441273}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 48.724003, y: 54.354004, z: 69.429}
+  m_LocalEulerAnglesHint: {x: -15.895, y: -1.3820001, z: 0.12200001}
 --- !u!212 &2090948020
 SpriteRenderer:
   m_ObjectHideFlags: 0
